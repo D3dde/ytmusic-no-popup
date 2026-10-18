@@ -1,0 +1,13 @@
+import { firefox } from 'playwright';
+const ctx = await firefox.launchPersistentContext('./.profile', { headless: true, viewport:{width:1400,height:900} });
+const page = ctx.pages()[0] || await ctx.newPage();
+page.on('pageerror', e=>console.log('ERR>', String(e).split('\n')[0]));
+page.on('console', m=>{ if(m.type()==='error') console.log('CONSOLE-ERR>', m.text().slice(0,200)); });
+await page.goto('https://music.youtube.com/', { waitUntil: 'domcontentloaded' });
+await page.waitForTimeout(8000);
+console.log('URL', page.url());
+console.log('TITLE', await page.title());
+console.log('body text:', (await page.evaluate(()=>document.body.innerText)).slice(0,500).replace(/\n+/g,' | '));
+console.log('tags:', await page.evaluate(()=>[...new Set([...document.querySelectorAll('*')].map(e=>e.tagName.toLowerCase()))].filter(t=>t.startsWith('yt')).join(',')));
+await page.screenshot({ path: 'recon/shot.png', fullPage:false });
+await ctx.close();

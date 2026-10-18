@@ -1,0 +1,11 @@
+https://static.doubleclick.net/instream/ad_status.js
+https://music.youtube.com/s/player/0229cd64/player_es6.vflset/en_US/remote.js
+https://music.youtube.com/s/player/0229cd64/player_es6.vflset/en_US/offline.js
+https://music.youtube.com/s/player/0229cd64/player_es6.vflset/en_US/base.js
+https://www.googletagmanager.com/gtm.js?id=GTM-NQNFS9
+https://music.youtube.com/s/39d19629/scheduler.js
+https://music.youtube.com/s/39d19629/lottie-light.js
+https://music.youtube.com/s/39d19629/web-animations-next-lite.min.js
+https://music.youtube.com/s/39d19629/custom-elements-es5-adapter.js
+https://music.youtube.com/s/39d19629/webcomponents-sd.js
+https://music.youtube.com/s/39d19629/music_polymer_inlined_html.js

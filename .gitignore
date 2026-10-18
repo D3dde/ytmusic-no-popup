@@ -1,0 +1,9 @@
+# Playwright browser profile (contains cookies / login) – NEVER commit
+.profile/
+# Node
+node_modules/
+# Playwright
+test-results/
+playwright-report/
+# OS noise
+.DS_Store

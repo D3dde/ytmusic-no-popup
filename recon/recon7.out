@@ -1,0 +1,61 @@
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+STORE {"behavior":true,"behaviorKeys":["__dataEnabled","__dataReady","__dataInvalid","__data","__dataPending","__dataOld","__dataInstanceProps","__dataCounter","__serializing","__dataHost","__dataClientsReady","__dataPendingClients","__dataToNotify","__dataLinkedPaths","__dataHasPaths","__dataCompoundStorage","__dataTemp","__dataClientsInitialized","rootPath","importPath","root","json","popupSrcElement","onShowControls","onHideControls","onContentScroll","playerUiService","JSC$13243_shortcutManager","__isPropertyEffectsClient","__autoDirOptOut","hostElement","allowedProps","__dataAttributes","ready","_overrideLegacyUndefined","__templateInfo","$","__isReflecting","isAttached","activeStoreSubscription","isConnected","playerApi"],"storeType":"function","instKeys":["__dataEnabled","__dataReady","__dataInvalid","__data","__dataPending","__dataOld","__dataInstanceProps","__dataCounter","__serializing","__dataHost","__dataClientsReady","__dataPendingClients","__dataToNotify","__dataLinkedPaths","__dataHasPaths","__dataCompoundStorage","__dataTemp","__dataClientsInitialized","rootPath","importPath","root","json","popupSrcElement","onShowControls","onHideControls","onContentScroll","playerUiService","JSC$13243_shortcutManager","__isPropertyEffectsClient","__autoDirOptOut","hostElement","allowedProps","__dataAttributes","ready","_overrideLegacyUndefined","__templateInfo","$","__isReflecting","isAttached","activeStoreSubscription","isConnected","playerApi"],"proxyKeys":["__dataEnabled","__dataReady","__dataInvalid","__data","__dataPending","__dataOld","__dataInstanceProps","__dataCounter","__serializing","__dataHost","__dataClientsReady","__dataPendingClients","__dataToNotify","__dataLinkedPaths","__dataHasPaths","__dataCompoundStorage","__dataTemp","__dataClientsInitialized","rootPath","importPath","root","json","popupSrcElement","onShowControls","onHideControls","onContentScroll","playerUiService","JSC$13243_shortcutManager","__isPropertyEffectsClient","__autoDirOptOut"]}
+target idx 3
+URL https://music.youtube.com/watch?v=PEkw5TMoH9A | videoTime 5.209077 | paused false
+UI {"viewportInfo":{"size":1,"fluid":false},"isGuideCollapsed":null}
+playerPageInfo {"open":true,"triggerElement":{"veData":{"trackingParams":"CK8DEMGhCBgBIhMIyfDzkonElwMVdbD0Bx3buxTpmgEDEPQkygEEjuv0Ug=="}}}
+BAR 0:05 / 6:10 / Instant Crush - Daft Punk (slowed + reverb) / C B
+=== LOG ===
+store wrapped, initial ui state = | {"viewportInfo":{"size":1,"fluid":false},"isGuideCollapsed":null}
+A | SET_PLAYER_TRIGGER_INFO
+A | SET_PRELOADED_ENDPOINT
+A | SET_IS_GENERATING
+A | SET_PLAYBACK_CONTENT_MODE
+A | SET_SHUFFLE_ENABLED
+A | SET_REPEAT
+A | CLEAR_STEERING_CHIPS
+A | SET_IS_INFINITE
+A | SET_QUEUE_CONTEXT_PARAMS
+A | SET_WATCH_NEXT_TYPE
+A | HAS_SHOWN_AUTOPLAY
+A | SET_IS_FETCHING_CHIP_STEER
+A | SET_HEADER
+A | SET_PLAYER_OVERLAY
+A | SET_PLAYER_PAGE_WATCH_NEXT_METADATA
+A | CLEAR
+A | SET_IS_RAAR_ENABLED
+A | SET_PLAYER_PAGE_WATCH_NEXT_AUTOMIX_PARAMS
+A | SET_PLAYER_PAGE_WATCH_NEXT_CONTINUATION_PARAMS
+A | SET_IS_RAAR_ENABLED
+A | SET_PLAYER_UI_STATE
+A | SET_PLAYER_PAGE_INFO
+HISTORY | pushState | [{"command":{"watchEndpoint":{"videoId":"PEkw5TMoH9A","watchEndpointMusicSupportedConfigs":{"watchEndpointMusicConfig":{"musicVideoType":"MUSIC_VIDEO_TYPE_UGC"}}},"clickTrackingPar
+A | SET_AD_PLAYING
+A | SET_IS_PLAYING
+A | SET_IS_PLAYING
+A | SET_SHOW_PLAYABILITY_ERROR
+A | SET_PLAYER_RESPONSE
+A | SET_CAPTIONS_AVAILABLE
+A | SET_IS_INFINITE
+A | SET_QUEUE_CONTEXT_PARAMS
+A | SET_PLAYER_PAGE_WATCH_NEXT_RESPONSE
+A | SET_PLAYER_OVERLAY
+A | SET_PLAYER_PAGE_WATCH_NEXT_METADATA
+A | SET_WATCH_NEXT_OVERLAY
+A | SET_SHUFFLE_ENDPOINTS
+A | SET_SHUFFLE_ENABLED
+A | SET_PLAYER_PAGE_TABS
+A | SET_PLAYER_PAGE_TABS_CONTENT
+A | SET_HEADER
+A | ADD_ITEMS
+A | ADD_RESPONSIVE_SIGNALS
+A | ADD_IMPRESSED_VIDEO_IDS
+A | SET_AUTOPLAY_ENABLED
+A | SET_IS_GENERATING
+A | SET_PRELOADED_ENDPOINT
+HISTORY | replaceState | [{"command":{"watchEndpoint":{"videoId":"PEkw5TMoH9A","params":"OAHyAQIIAeoEC1BFa3c1VE1vSDlB","watchEndpointMusicSupportedConfigs":{"watchEndpointMusicConfig":{"hasPersistentPlayli
+A | SET_IS_PLAYING
+A | ADD_STEERING_CHIPS
+A | SET_PLAYER_PAGE_WATCH_NEXT_AUTOMIX_PARAMS
+A | ADD_AUTOMIX_ITEMS
+A | HAS_SHOWN_AUTOPLAY

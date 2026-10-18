@@ -1,0 +1,14 @@
+
+Running 8 tests using 1 worker
+
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+  ✓  1 tests/no-popup.spec.js:48:1 › playlist: clicking a song plays in place without opening the player page (16.9s)
+  ✓  2 tests/no-popup.spec.js:59:1 › album: clicking a song plays in place without opening the player page (15.8s)
+  ✓  3 tests/no-popup.spec.js:70:1 › search: clicking a song plays in place without opening the player page (7.6s)
+  ✓  4 tests/no-popup.spec.js:81:1 › home shelf: clicking a song plays in place without opening the player page (7.1s)
+  ✓  5 tests/no-popup.spec.js:92:1 › bottom bar opens the player page and the chevron closes it again (7.2s)
+  ✓  6 tests/no-popup.spec.js:112:1 › next and previous from the bottom bar work and the queue advances (8.1s)
+  ✓  7 tests/no-popup.spec.js:135:1 › loading a direct /watch URL opens the player page and plays (9.2s)
+  ✓  8 tests/no-popup.spec.js:157:1 › 10 consecutive song clicks: page stays closed and the script logs no errors (45.9s)
+
+  8 passed (2.0m)

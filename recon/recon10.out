@@ -1,0 +1,25 @@
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+{
+ "url": "https://music.youtube.com/search?q=daft+punk+instant+crush",
+ "videoTime": 7.750091,
+ "paused": false,
+ "appPlayerUiState": "PLAYER_BAR_ONLY",
+ "playerPageOpen": false,
+ "pageAttr": "PLAYER_BAR_ONLY",
+ "barVisible": false,
+ "barRect": 72,
+ "barTitle": "Instant Crush - Daft Punk (slowed + reverb)",
+ "marker": true,
+ "log": [
+  "A | SET_PLAYER_PAGE_WATCH_NEXT_METADATA",
+  "A | SET_PLAYER_PAGE_WATCH_NEXT_AUTOMIX_PARAMS",
+  "A | SET_PLAYER_PAGE_WATCH_NEXT_CONTINUATION_PARAMS",
+  "REWRITE ui PLAYER_BAR_ONLY",
+  "REWRITE pageInfo open=false",
+  "A | SET_PLAYER_PAGE_WATCH_NEXT_RESPONSE",
+  "A | SET_PLAYER_PAGE_WATCH_NEXT_METADATA",
+  "A | SET_PLAYER_PAGE_TABS",
+  "A | SET_PLAYER_PAGE_TABS_CONTENT",
+  "A | SET_PLAYER_PAGE_WATCH_NEXT_AUTOMIX_PARAMS"
+ ]
+}

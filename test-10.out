@@ -1,0 +1,7 @@
+
+Running 1 test using 1 worker
+
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+  ✓  1 tests/no-popup.spec.js:157:1 › 10 consecutive song clicks: page stays closed and the script logs no errors (43.2s)
+
+  1 passed (44.6s)

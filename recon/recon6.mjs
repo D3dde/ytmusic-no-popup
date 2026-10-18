@@ -1,0 +1,11 @@
+import { firefox } from 'playwright';
+import fs from 'fs';
+const ctx = await firefox.launchPersistentContext('./.profile', { headless: true, viewport: { width: 1400, height: 900 } });
+const page = ctx.pages()[0] || (await ctx.newPage());
+await page.goto('https://music.youtube.com/', { waitUntil: 'domcontentloaded' });
+await page.waitForSelector('ytmusic-app-layout', { timeout: 60000 });
+await page.waitForTimeout(6000);
+const scripts = await page.evaluate(() => [...document.querySelectorAll('script[src]')].map((s) => s.src));
+console.log(scripts.join('\n'));
+fs.writeFileSync('recon/scripts.txt', scripts.join('\n'));
+await ctx.close();

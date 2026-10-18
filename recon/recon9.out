@@ -1,0 +1,21 @@
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+{
+ "innerText": "",
+ "titleText": "Instant Crush - Daft Punk (slowed + reverb)",
+ "bylineText": "C B • 2.4M views • 30K likes",
+ "visible": false,
+ "rect": {
+  "x": 0,
+  "y": 900,
+  "width": 1400,
+  "height": 0,
+  "top": 900,
+  "right": 1400,
+  "bottom": 900,
+  "left": 0
+ },
+ "hasToggle": true,
+ "hasThumbnail": true,
+ "appPlayerUiState": "INACTIVE",
+ "playerPageOpen": false
+}

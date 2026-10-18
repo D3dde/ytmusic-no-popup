@@ -1,0 +1,17 @@
+{
+  "name": "ytmusic-no-popup",
+  "version": "1.0.0",
+  "description": "YouTube Music userscript: play songs in place without opening the full player page.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "HEADED=1 playwright test",
+    "login": "node scripts/login.mjs",
+    "shell": "nix-shell"
+  },
+  "keywords": ["youtube-music", "userscript", "violentmonkey", "tampermonkey"],
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}

@@ -1,0 +1,49 @@
+Skipping host requirements validation logic because `PLAYWRIGHT_SKIP_VALIDATE_HOST_REQUIREMENTS` env variable is set.
+PAGE [ytm-no-popup] installed on Redux store; player-page openings will be suppressed
+--- click song ---
+song idx 3
+PAGE [ytm-no-popup] rewriting SET_PLAYER_UI_STATE PLAYER_PAGE_OPEN -> PLAYER_BAR_ONLY
+PAGE [ytm-no-popup] rewriting SET_PLAYER_PAGE_INFO open:true -> open:false
+AFTER SONG {
+ "url": "https://music.youtube.com/search?q=daft+punk+instant+crush",
+ "appUi": "PLAYER_BAR_ONLY",
+ "pageAttr": "PLAYER_BAR_ONLY",
+ "videoTime": 5.434752,
+ "paused": false,
+ "title": "260507 NUVENIA 20s",
+ "hasToggle": true
+}
+--- click bottom bar (title) to open player page ---
+PAGE [ytm-no-popup] player-page open whitelisted (player-bar click) for 2000 ms
+AFTER BAR CLICK {
+ "url": "https://music.youtube.com/watch?v=PEkw5TMoH9A",
+ "appUi": "PLAYER_PAGE_OPEN",
+ "pageAttr": "PLAYER_PAGE_OPEN",
+ "videoTime": 9.50778,
+ "paused": false,
+ "title": "260507 NUVENIA 20s",
+ "hasToggle": true
+}
+--- try to close player page ---
+toggle count 1
+PAGE [ytm-no-popup] player-page open whitelisted (player-bar click) for 2000 ms
+AFTER TOGGLE {
+ "url": "https://music.youtube.com/search?q=daft+punk+instant+crush",
+ "appUi": "MINIPLAYER",
+ "pageAttr": "MINIPLAYER",
+ "videoTime": 12.682445,
+ "paused": false,
+ "title": "260507 NUVENIA 20s",
+ "hasToggle": true
+}
+--- next ---
+PAGE [ytm-no-popup] player-page open whitelisted (player-bar click) for 2000 ms
+AFTER NEXT {
+ "url": "https://music.youtube.com/search?q=daft+punk+instant+crush",
+ "appUi": "MINIPLAYER",
+ "pageAttr": "MINIPLAYER",
+ "videoTime": 3.587332,
+ "paused": false,
+ "title": "Kavinsky-Night Call (slowed and reverb) [SLOWED TO PERFECTION]",
+ "hasToggle": true
+}
